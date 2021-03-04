@@ -515,14 +515,11 @@ void generate_disconnect_report(struct in_addr addr, int port, int wasted_bytes)
     fprintf(stderr, "TS: seconds:%ld, nanoseconds: %ld\ndisconnected client:%s:%d\nwasted bytes: %d\n\n",time.tv_sec, time.tv_nsec, saddr, port, wasted_bytes);
 }
 
-// W trakcie tworzenia programu korzystałam z następujących źródeł zewnętrznych:
+// While creating the porgramme I used the following sources:
 
-// funkcja little_endian()
+// ittle_endian() function
 // stackoverflow.com/questions/1024951/does-my-amd-based-machine-use-little-endian-or-big-endian?fbclid=IwAR3sVn7AAWyiYLWleuKTpmgFrpm1jcHo7g2rKHTDQRq7pYRiU0B_1qbEsqY
 
-// szkielet serwera inspirowany był serwerem zamieszczonym na stronie
+// the scheme of the server was inspired by the server posted on the site:
 // https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_71/rzab6/poll.htm
 
-// przykladowe parametry, dla ktorych program dziala:
-// ./producent -p 3 127.0.0.1:8888
-// ./producent -p 1 127.0.0.1:8888
