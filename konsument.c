@@ -389,11 +389,7 @@ void parseArgs(int argc, char *const *argv, float *consumption_speed, float *deg
     (*arg) = argv[optind];
 }
 
-// W trakcie tworzenia programu korzystałam z następujących źródeł zewnętrznych:
+// While creating the programme I used the following sources:
 
-// funkcja little_endian()
+// little_endian() function:
 // stackoverflow.com/questions/1024951/does-my-amd-based-machine-use-little-endian-or-big-endian?fbclid=IwAR3sVn7AAWyiYLWleuKTpmgFrpm1jcHo7g2rKHTDQRq7pYRiU0B_1qbEsqY
-
-// Przykladowe parametry, dls ktorych program dziala:
-// ./konsument -c 1 -p 1 -d 0.1 :8888
-// ./konsument -c 1 -p 1 -d 1 :8888
