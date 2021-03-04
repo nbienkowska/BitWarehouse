@@ -4,6 +4,6 @@
 -> The server can send data packets to multiples clients  
   
 -> Usage:  
- ./konsument -c &lt;int -p &lt;float> -d &lt;float> &lt;host:>&lt;port>  
+ ./konsument -c &lt;int> -p &lt;float> -d &lt;float> &lt;host:>&lt;port>  
  ./producent -p &lt;float> &lt;host:>&lt;port>  
 
